@@ -1,0 +1,15 @@
+.video_block{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: var( --video-backgraund-image);
+    width: 50%;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: all 0.3s ease;
+
+
+}

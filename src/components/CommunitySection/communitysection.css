@@ -1,0 +1,80 @@
+.community_section_container{
+    background-image: var(  --write-section-backgraund-image);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 40px;
+    z-index: -30;
+    -webkit-box-shadow: 2px 13px 18px -14px rgba(34, 60, 80, 0.14) inset;
+    -moz-box-shadow: 2px 13px 18px -14px rgba(34, 60, 80, 0.14) inset;
+    box-shadow: 2px 13px 18px -14px rgba(34, 60, 80, 0.14) inset;
+    padding-top: 80px;
+}
+.community_top_text_cont{
+    max-width: 56rem;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: #203844;
+    font-weight: 800;
+
+}
+.community_top_text_cont > p{
+    font-size: 20px;
+    width: 56rem;
+}
+.community_title{
+    display: flex;
+    justify-content: center;
+}
+.community_title > h2{
+    width: 30rem;
+   font-size: 52px;
+   color: var(--title-color);
+}
+.welcom_react_community_content > h2{
+    padding-bottom: 30px;
+}
+.getstartedBtn {
+    color: var( --btn-text-color);
+    background-color: var( --btn-backgraund-color);
+    padding-top: .75rem;
+    padding-bottom: .85rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 40px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.community_title{
+    color: var(--span-text-color);
+    font-size: 52px;
+    cursor: pointer;
+    font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+.welcom_react_community_content{
+    margin-top: 5rem;
+    margin-bottom: 70px;
+}
+.welcom_react_community_content h2{
+    color: var(--title-color);
+    max-width: 30rem;
+    font-size: 52px;
+    margin-top:10px ;
+    cursor: pointer;
+    font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+.slider_container{
+    width: 100%;
+}

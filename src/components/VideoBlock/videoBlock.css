@@ -1,0 +1,135 @@
+.video_block{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: var( --video-backgraund-image);
+    width: 50%;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: all 0.3s ease;
+
+
+}
+@media (max-width: 1088px){
+  .video_block{
+  min-height: 200px;
+  border-radius: 0;
+  width: 100%;
+  }
+}
+.hovered{
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
+}
+.quantity{
+  display: flex;
+  text-align: start;
+  align-items: center;
+  font-size: 22px;
+  padding-left: 20px;
+  height: 50px;
+  color: rgb(35 39 47 );
+  font-weight:700;
+  letter-spacing: 0.06em;
+
+}
+.video-box{
+    display: grid;
+    width: 34rem;
+    min-height: 123px;
+    border-radius: 20px;
+    background-color: rgb(255 255 255);
+    box-shadow: 0 16px 32px -16px rgba(0, 0, 0, .1), 0 0 0 1px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.video-card{
+  display: flex;
+}
+.video-title{
+    width: 33%;
+    padding-top:30px;
+    padding-left: 10px;
+    margin-right: 40px;
+}
+.video-title > .title{
+    align-items: first baseline;
+    font-size: 15px;
+    text-align: start;
+    display: flex;
+    color: #213547;
+    font-weight: 800;
+    justify-content: flex-start;
+    letter-spacing: 0.08em;
+}
+.video-title > .video-description{
+    align-items: first baseline;
+    font-size: 15px;
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.08em;
+    color: #213547;
+
+}
+
+.video{
+    width: 10rem;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 15px;
+    background: rgb(42,81,149);
+    background: linear-gradient(90deg, rgba(42,81,149,1) 0%, rgba(19,86,124,1) 57%, rgba(61,35,65,1) 100%);
+}
+.play{
+    color: white;
+    cursor: pointer;
+}
+
+.heart-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .heart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    width: 120px;
+  }
+  
+  .heart-container svg {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: solid 1px rgba(166, 65, 58, 0.123);
+    padding: 4px;
+    margin-left: 60px;
+    transition: all 0.3s;
+    fill: #9c9c9c;
+  }
+  
+  .heart-container svg:hover {
+    transform: scale(1.1);
+  }
+  
+  .heart-container input:checked ~ svg {
+    fill: rgb(166 66 58 );
+  }
+  
+  
