@@ -1,8 +1,7 @@
-# React + Vite
+# React-Site_Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:
+![Screenshot 2025-03-06 013322](https://github.com/user-attachments/assets/9cf3a5dd-9435-49d0-aec8-e60e2fbb6137)
 
-Currently, two official plugins are available:
+In this project, I aimed to create a clone of a real-world website using React.js without relying on any Figma design or pre-made mockups. The goal was to replicate the website's functionality and design purely through observation and coding. Additionally, I ensured that the site is fully responsive, providing an optimal user experience across all 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
