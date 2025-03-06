@@ -6,13 +6,6 @@
     overflow: hidden;
     transition: all 0.3s ease;
 }
-@media (max-width: 1088px){
-    .code_block
-    {
-    border-radius: 0;
-    width: 75%;
-    }
-  }
 .code_block > .vd {
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -28,3 +21,17 @@
     padding-left: 20px;
 
 }
+.vd > pre{
+    border-radius: 0px;
+}
+@media (max-width: 1088px){
+    .code_block
+    {
+    border-radius: 0;
+    width: 100%;
+    }
+    .code_block > .vd{
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+  }

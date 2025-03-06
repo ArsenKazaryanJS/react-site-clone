@@ -10,6 +10,7 @@ text-decoration: inherit;
 }
 pre {
   margin: 0;
+  border-radius: 0px;
 }
 html[data-theme='light']{
   --video-backgraund-image:url(./assets/gradient_dark.png);
@@ -54,6 +55,7 @@ html[data-theme='light']{
    
   
  :root {
+   --title-min-font-size:40px;
    --docsearch-modal-background: #fff; 
    --docsearch-highlight-color: #087ea4;
    --docsearch-primary-color: #0074a6;

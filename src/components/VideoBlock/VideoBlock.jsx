@@ -5,7 +5,6 @@ import { Play } from '../Icons/Icons.jsx';
 const VideoBlock = ({ blockQuantity = 1 }) => {
   return (
     <div className="video_block">
-      
       <div className="video-box">
         {blockQuantity > 1 && (
           <span className='quantity'>{blockQuantity} Videos</span>

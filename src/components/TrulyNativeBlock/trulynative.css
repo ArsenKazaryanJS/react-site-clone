@@ -1,13 +1,18 @@
 .truly_native_container{
     position: relative;
     background-color: rgb(0 0 0 );
-    min-width: 610px;
+    width: 50%;
+    max-width: 610px;
     height: 400px;
      padding: .625rem;
      border-radius: 1rem;
      box-shadow:  0 16px 32px -16px rgba(0, 0, 0, .1), 0 0 0 1px hsla(0, 0%, 100%, .05);;
 }
-
+@media(max-width:1025px){
+    .truly_native_container{
+       width: 100%;
+    }
+ }
 .truly_native_content{
     background-image: var(--background-image-card); 
    width: 100%;
@@ -25,6 +30,7 @@
 
 }
 .truly_native_content > .text_content > .title{
+    width: 100%;
     color: var(--title-color);
 }
 .truly_native_content > .text_content > .text{

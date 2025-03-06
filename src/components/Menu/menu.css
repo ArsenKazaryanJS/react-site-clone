@@ -1,0 +1,31 @@
+.menu {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    padding-left: 10px;
+}
+
+@media (max-width: 1020px){
+    .menu {
+      display: flex;
+    }
+}
+
+.menu > a {
+    padding: 10px 15px;
+    font-size: 15px;
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+.menu > a:active{
+    transform: scale(0.9);
+  }
+  
+  
+  .menu > a:hover {
+    background-color: rgba(64, 71, 86, 0.185);
+  }

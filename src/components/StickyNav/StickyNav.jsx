@@ -7,6 +7,7 @@ import logo_dark from '../../assets/logo_dark.svg'
 import {Moon,Languages,Github,Sun,X,Burger} from '../Icons/Icons.jsx'
 import { SearchInputBox } from "../SearchInputBox/SearchInputBox.jsx";
 import { useState } from 'react';
+import Menu from '../Menu/Menu.jsx';
 
 const StickyNav = ({theme, setTheme}) => {
 const shadow = useScrollShadow(64)
@@ -29,7 +30,7 @@ const [menuOpen, setMenuOpen] = useState(false);
             <SearchInputBox />
           </div>
           <div className="right-content">
-            <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
+            <div className="nav-links">
               <a href="#" className="nav-link">Learn</a>
               <a href="#" className="nav-link">Reference</a>
               <a href="#" className="nav-link">Community</a>
@@ -51,6 +52,9 @@ const [menuOpen, setMenuOpen] = useState(false);
           </div>
         </div>
       </nav>
+      {menuOpen && (
+      <Menu/>
+      )}
     </header>
   </>
   );

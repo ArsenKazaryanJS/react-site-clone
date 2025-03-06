@@ -57,7 +57,6 @@ const SiteFooter = () => {
             </div>
           </div>
         </div>
-
         <div className="social-links">
           <a href="#" >
           <Facebook className="social-link"/>

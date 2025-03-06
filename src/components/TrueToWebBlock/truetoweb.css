@@ -1,5 +1,6 @@
 .true_to_web_content{
-    min-width: 610px;
+   width: 50%;
+   max-width: 610px;
     height: 420px;
     position: relative;
     border-radius: 1rem;
@@ -7,9 +8,15 @@
    background-image: conic-gradient(from -90deg at 110% 100%, #fff 0deg, #ebecf0 90deg, #ebecf0 1turn);
 
  }
+ @media(max-width:1025px){
+   .true_to_web_content{
+      width: 100%;
+   }
+}
+
   .exemple_block{
-border-top-right-radius: 1rem;
-border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     background-color: rgb(255 255 255);
     display: flex;
     justify-content: center;

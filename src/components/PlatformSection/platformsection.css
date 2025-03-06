@@ -1,4 +1,5 @@
 .platform_section{
+    width: 100%;
     background-image: var(--write-section-backgraund-image);
     display: flex;
     flex-direction: column;
@@ -14,13 +15,21 @@
     padding-top: 80px;
 }
 .trulynative_and_truetoweb_box{
-    width: 77rem;
+    /* max-width: 80rem; */
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
     margin-top: 35px;
     margin-bottom: 7rem;
+}
+@media(max-width:1025px){
+    .trulynative_and_truetoweb_box{
+        display: flex;
+        gap: 80px;
+        flex-direction: column;
+    }
 }
 .platform_section h2{
   color: var(--title-color);

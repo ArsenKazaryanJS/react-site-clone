@@ -1,4 +1,5 @@
 .interface_section{
+    width: 100%;
     background-image: var(--dark-backgraund-color);
     display: flex;
     flex-direction: column;
@@ -56,11 +57,17 @@
     align-items: center;
 }
 
-@media (max-width: 1058px) {
+@media (max-width: 1062px) {
     .code_and_video_box {
-        max-width: 77rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }}
+    @media (max-width: 1237px) {
+        .code_and_video_box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }}

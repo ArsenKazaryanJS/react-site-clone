@@ -9,7 +9,7 @@ const CodeBlock = ({ theme,sampleCode}) => {
     'pre[class*="language-"]': {
       ...coy['pre[class*="language-"]'],
       background: 'rgb(253, 253, 253)', // Light background
-      borderRadius: '10px', // Rounded corners
+      borderRadius: '0px ', // Rounded corners
       padding: '16px', // Padding for spacing
       margin: '0px 0px 0px 0px', // Remove default margin
     },
@@ -18,6 +18,8 @@ const CodeBlock = ({ theme,sampleCode}) => {
     ...oneDark,
     'pre[class*="language-"]': {
       ...oneDark['pre[class*="language-"]'],
+      borderRadius: '0px ', // Rounded corners
+
       padding: '16px', // Padding for spacing
       margin: '0px 0px 0px 0px', // Remove default margin
     },

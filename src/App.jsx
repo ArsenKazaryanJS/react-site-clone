@@ -17,7 +17,7 @@ function App() {
      <MainHeader theme={theme}/>
      <InterfaceSection theme={theme}/>
      <WriteCompSection theme={theme}/>
-     <ConferencSection theme={theme}/>
+     {/* <ConferencSection theme={theme}/> */}
      <PlatformSection />
      <UpgradeSection />
      <CommunitySection theme={theme}/>
