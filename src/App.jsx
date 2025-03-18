@@ -7,7 +7,6 @@ import { WriteCompSection } from './components/WriteCompSection/WriteCompSection
 import { PlatformSection } from './components/PlatformSection/PlatformSection.jsx'
 import { CommunitySection } from './components/CommunitySection/CommunitySection.jsx'
 import { UpgradeSection } from './components/UpgradeSection/UpgradeSection.jsx'
-import ConferencSection from './components/ConferencSection/ConferencSection.jsx'
 
 function App() {
   const {theme, setTheme} = useTheme()
@@ -17,7 +16,6 @@ function App() {
      <MainHeader theme={theme}/>
      <InterfaceSection theme={theme}/>
      <WriteCompSection theme={theme}/>
-     {/* <ConferencSection theme={theme}/> */}
      <PlatformSection />
      <UpgradeSection />
      <CommunitySection theme={theme}/>
