@@ -1,5 +1,7 @@
 # React-Site_Clone
 
+You can view the project live at the following link:https://arsenkazaryanjs.github.io/react-site-clone
+
 Description:
 ![Screenshot 2025-03-06 013322](https://github.com/user-attachments/assets/9cf3a5dd-9435-49d0-aec8-e60e2fbb6137)
 
