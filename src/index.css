@@ -12,7 +12,13 @@ pre {
   margin: 0;
   border-radius: 0px;
 }
+h5{
+  margin: 0;
+}
 html[data-theme='light']{
+  --will-learn:rgb(246 247 249);
+  --scroll-color:rgba(0, 0, 0, .2) transparent;
+  --a-hover-backgraund:rgba(64, 71, 86, 0.027);
   --video-backgraund-image:url(./assets/gradient_dark.png);
   --video-box-backgraund:rgba(94, 104, 126, 0.055);
   --title-color:rgb(35 39 47);
@@ -33,6 +39,9 @@ html[data-theme='light']{
 
  }
  html[data-theme='dark']{
+  --will-learn:rgb(52 58 70 );
+  --scroll-color:hsla(0, 0%, 100%, 0.2) transparent;
+  --a-hover-backgraund:rgb(64 71 86);
   --span-text-color:rgb(153 161 179);
   --btn-backgraund-color:rgb(88 196 220);
   --btn-text-color: rgb(64 71 86) ;
@@ -43,7 +52,7 @@ html[data-theme='light']{
    --backgraund-color:rgb(35 39 47);
   --backgraund-color-nav:rgba(35, 39, 47, 0.91);
   --title-color:rgb(235 236 240);
-   --span-color:rgb(153 161 179);
+   --span-color:rgba(153, 161, 179, 0.171);
    --dark-backgraund-color:conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn);
    --background-image-card: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); 
    --text-color:rgb(235 236 240);
@@ -98,4 +107,8 @@ h2{
   height: 300px;
   border: solid;
  
+}
+.page-container{
+  width: 100%;
+  min-height: 100vh;
 }

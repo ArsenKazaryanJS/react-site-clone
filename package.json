@@ -1,16 +1,16 @@
 {
   "name": "vite-project",
-  "homepage":"https://arsenkazaryanjs.github.io/react-site-clone/",
+  "homepage": "https://arsenkazaryanjs.github.io/react-site-clone/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prodeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "prodeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
@@ -19,6 +19,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
+    "react-router-dom": "^7.4.1",
     "react-syntax-highlighter": "^15.6.1",
     "swiper": "^11.2.4"
   },

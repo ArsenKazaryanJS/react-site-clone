@@ -1,0 +1,19 @@
+.referenc-container{
+    display: flex;
+    margin-top: 70px;
+}
+
+.referenc-left-box {
+    width: 23%; 
+
+}
+
+.referenc-box {
+    width: 58%; 
+
+}
+
+.referenc-right-box {
+    width: 23%; 
+
+}

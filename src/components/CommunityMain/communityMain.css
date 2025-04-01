@@ -1,0 +1,141 @@
+.communityMain-box {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.community-next {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  svg {
+    color: var(--btn-backgraund-color);
+    width: 25px;
+    height: 25px;
+  }
+  a {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--btn-backgraund-color);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.communityMainHead {
+  width: 100%;
+  display: grid;
+  gap: 30px;
+
+  h1 {
+    font-size: 2.8em;
+    line-height: 1.1;
+    color: var(--title-color);
+    margin: 0;
+  }
+
+  p {
+    text-align: start;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 1.625;
+  }
+}
+
+.communityContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  h3 {
+    color: var(--title-color);
+    font-size: 28px;
+    margin: 0;
+  }
+  p {
+    font-size: 17px;
+    text-align: start;
+    font-weight: 400;
+
+    span {
+      color: rgb(88 196 220);
+      border-bottom: 1px solid transparent;
+      transition: 0.3s;
+      line-height: 10px;
+    }
+    span:hover {
+      border-bottom: 1px solid;
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    li {
+      width: 280px;
+      color: rgb(88 196 220);
+      border-bottom: 1px solid transparent;
+      transition: 0.3s;
+      font-size: 20px;
+    }
+    li:hover {
+      border-bottom: 1px solid;
+      cursor: pointer;
+    }
+  }
+}
+
+.next-conference {
+  display: flex;
+  justify-content: flex-end;
+  .react-conference {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 300px;
+    height: 120px;
+    border-radius: 10px;
+    padding-right: 10px;
+    transition: 0.3s all;
+    cursor: pointer;
+    svg {
+      color: var(--title-color);
+      padding-left: 10px;
+      width: 30px;
+      height: 30px;
+    }
+    .confernce {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 10px;
+
+      p {
+        text-align: end;
+      }
+
+      span {
+        color: rgb(88 196 220);
+        border-bottom: 1px solid transparent;
+        transition: 0.3s;
+        font-size: 18px;
+        text-align: end;
+        letter-spacing: 1px;
+      }
+
+      span:hover {
+        border-bottom: 1px solid;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .react-conference:hover {
+    background-color: rgba(63, 80, 114, 0.158);
+  }
+}

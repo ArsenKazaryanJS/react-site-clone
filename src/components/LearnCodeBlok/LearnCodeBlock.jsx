@@ -1,9 +1,9 @@
 import React from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark ,coy} from 'react-syntax-highlighter/dist/esm/styles/prism';
-import './codeBlock.css'
+import './learnCodeBlock.css'
 
-const CodeBlock = ({ theme,sampleCode}) => {
+export const LearnCodeBlock = ({ theme,sampleCode}) => {
   
   const customStyle_Coy = {
     ...coy,
@@ -24,11 +24,10 @@ const CodeBlock = ({ theme,sampleCode}) => {
       margin: '0px 0px 0px 0px', 
     },
   };
+
+
   return (
     <div className="code_block">
-      <div className="vd">
-        <p>Video.js</p>
-      </div>
       <SyntaxHighlighter
         language="javascript"
         style={theme === 'light' ? customStyle_Coy : customStyle_oneDark}
@@ -39,5 +38,3 @@ const CodeBlock = ({ theme,sampleCode}) => {
   );
 };
 
-
-export default CodeBlock;

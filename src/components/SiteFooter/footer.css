@@ -1,9 +1,7 @@
-
 .footer {
     padding-top: 4rem;
     width: 100%;
-    background-image: var(--dark-backgraund-color);
-    
+    background-color: transparent;
   }
   
   .footer-container {

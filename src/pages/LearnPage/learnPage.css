@@ -1,0 +1,19 @@
+.learn-container{
+    display: flex;
+    margin-top: 70px;
+}
+
+.learn-left-box {
+    width: 23%; 
+
+}
+
+.learn-box {
+    width: 58%; 
+
+}
+
+.learn-right-box {
+    width: 23%; 
+
+}

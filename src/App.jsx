@@ -1,25 +1,25 @@
-import MainHeader from './components/MainHeader/MainHeader.jsx'
 import {useTheme} from './hooks/use-theme.js'
 import StickyNav from './components/StickyNav/StickyNav.jsx'
-import InterfaceSection from './components/InterfaceSection/InterfaceSection.jsx'
 import SiteFooter from './components/SiteFooter/SiteFooter.jsx'
-import { WriteCompSection } from './components/WriteCompSection/WriteCompSection.jsx'
-import { PlatformSection } from './components/PlatformSection/PlatformSection.jsx'
-import { CommunitySection } from './components/CommunitySection/CommunitySection.jsx'
-import { UpgradeSection } from './components/UpgradeSection/UpgradeSection.jsx'
+import {Route, Routes} from 'react-router-dom'
+import { HomPage } from './pages/HomPage.jsx'
+import { LearnPage } from './pages/LearnPage/LearnPage.jsx'
+import { ReferencPage } from './pages/ReferencPage/ReferencPage.jsx'
+import { CommunityPage } from './pages/CommunityPage/CommunityPage.jsx'
+import { BlogPage } from './pages/BlogPage/BlogPage.jsx'
 
 function App() {
-  const {theme, setTheme} = useTheme()
+  const {theme, setTheme} = useTheme('dark')
   return (
     <div className="container">
-     <StickyNav theme={theme} setTheme={setTheme}/>
-     <MainHeader theme={theme}/>
-     <InterfaceSection theme={theme}/>
-     <WriteCompSection theme={theme}/>
-     <PlatformSection />
-     <UpgradeSection />
-     <CommunitySection theme={theme}/>
-     <SiteFooter/>
+    <StickyNav theme={theme} setTheme={setTheme}/>
+      <Routes>
+       <Route path='react-site-clone/' element={<HomPage theme={theme}/>}/>
+       <Route path='react-site-clone/Community' element={<CommunityPage/>}/>
+       <Route path='react-site-clone/Learn' element={<LearnPage theme={theme}/>}/>
+       <Route path='react-site-clone/Reference' element={<ReferencPage/>}/>
+       <Route path='react-site-clone/Blog' element={<BlogPage/>}/>
+       </Routes>
     </div>
   )
 }

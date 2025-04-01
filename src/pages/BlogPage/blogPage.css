@@ -1,0 +1,8 @@
+.blog-box{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 30px;
+    margin-bottom: 60px;
+}
